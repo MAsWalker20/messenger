@@ -1,19 +1,31 @@
-<<<<<<< HEAD
-.menu {
-    
+
+.mother {
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
+.menu {
+    margin-bottom: 50px;
+}
 
+.description {
+    margin-bottom: 20px;
+}
+
+.header{
+    margin-bottom: 20ppx;
+}
 
 .footer {
-    padding: 20px;
-   border: 10px solid red;
-    margin: 40px 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 .logo {
     width: 20px;
     height: 20px;
+    margin-right: 300px;
 }
 
 .left {
@@ -27,8 +39,7 @@
 }
 
 .right_imgae {
-    width: 10%;
-    height: 10%;
+    width: 50% ;
 }
 
 .apple {
@@ -39,12 +50,28 @@
 .menuitem {
     text-decoration: none;
     color: inherit;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.menuitem:hover {
+    border-bottom-style: solid;
 }
 
 .block {
     display:block;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: lightgrey;
+    height: 35px;
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+
 }
 .sigin {
     background-color: #0084ff;
@@ -54,61 +81,13 @@
     padding: 2px 20px 0;
     font-size: 19px;
     height: 40px;
-=======
-.menu {
-    
+    width: 100px;
 }
 
-
-
-.footer {
-    padding: 20px;
-   border: 10px solid red;
-    margin: 40px 100px;
+.inputspan {
+    margin-bottom: 20px;
 }
 
-.logo {
-    width: 20px;
-    height: 20px;
-}
-
-.left {
-    display: inline-block;
-    width: 40%;
-}
-
-.right {
-    display: inline-block;
-    width: 40%;
-}
-
-.right_imgae {
-    width: 10%;
-    height: 10%;
-}
-
-.apple {
-    width: 60px;
-    height: 40px;
-}
-
-.menuitem {
-    text-decoration: none;
-    color: inherit;
-}
-
-.block {
-    display:block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.sigin {
-    background-color: #0084ff;
-    border-radius: 24px;
-    border: none;
-    color: white;
-    padding: 2px 20px 0;
-    font-size: 19px;
-    height: 40px;
->>>>>>> d7a087279cfed590687d7efe1f3b51385dd18971
+.password {
+    margin-bottom: 20px;
 }
